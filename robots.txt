@@ -1,6 +1,8 @@
 user-agent: *
 disallow: /multimedios/imagenes/
 user-agent: *
+disallow: /img/
+user-agent: *
 disallow: /js/
 user-agent: *
 disallow: /css/
