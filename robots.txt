@@ -6,6 +6,7 @@ user-agent: *
 disallow: /css/
 user-agent: *
 disallow: /otros/fuentes/
+sitemap: https://gersanproyectos.000webhostapp.com/sitemap.xml
 
 
 
