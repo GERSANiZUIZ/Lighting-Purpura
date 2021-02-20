@@ -4,6 +4,8 @@ user-agent: *
 disallow: /js/
 user-agent: *
 disallow: /css/
+user-agent: *
+disallow: /otros/fuentes/
 
 
 
