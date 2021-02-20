@@ -1,0 +1,119 @@
+.view .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+/*botones de mision y vision*/
+
+.btn-floating {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 47px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+
+.btn-rounded {
+    border-radius: 10em;
+}
+
+.btn-outline-purpura {
+    color: #990248 !important;
+    background-color: transparent !important;
+    border: 2px solid #990248 !important;
+    transition: 0.2s;
+}
+
+.btn-outline-azul {
+    color: #2f4bda !important;
+    background-color: transparent !important;
+    border: 2px solid #2f4bda !important;
+    transition: 0.2s;
+}
+
+.btn-outline-purpura:hover {
+    background-color: #990248 !important;
+    color: #fff !important;
+}
+
+.btn-outline-azul:hover {
+    background-color: #2f4bda !important;
+    color: #fff !important;
+}
+
+.btn-blanco:hover {
+    border: 2px solid #990248 !important;
+    background-color: #fff !important;
+    color: #990248 !important;
+}
+
+
+/*carta de contacto asesor*/
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.testimonial-card .card-body {
+    text-align: center;
+}
+
+.testimonial-card .avatar {
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+    .caja-carrusel-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {}
+
+.top-nav-collapse {
+    background-color: #000000;
+    /*background: linear-gradient(90deg, #000000, #ffff) !important;*/
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    html,
+    body,
+    .view {
+        height: 100%;
+    }
+    .navbar:not(.top-nav-collapse) {
+        background: #000000 !important;
+    }
+}
